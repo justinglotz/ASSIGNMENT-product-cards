@@ -1,0 +1,62 @@
+.product-cards {
+  display: flex;
+  flex-flow: row wrap;
+
+}
+
+.card-img-top {
+  width: 200px;
+  height: 200px;
+  display: block;
+  margin: auto;
+}
+
+.card {
+  width: calc(33% - 10px);
+  box-sizing: border-box;
+  border: 1px solid lightblue;
+  min-width: 250px;
+  margin: 5px;
+}
+
+.card-text {
+  padding: 5px;
+}
+
+.card-title {
+  text-align: center;
+  border-bottom: 1px solid lightblue;
+  padding-bottom: 20px;
+}
+
+.availability {
+  border: 1px solid blue;
+  background-color: grey;
+  color: yellow;
+  margin: ;
+
+}
+
+.prices{
+  margin: 0;
+}
+
+.specs, .pricing {
+  margin-left: 10px;
+}
+
+h4 {
+  margin: 0;
+  font-weight: 100;
+}
+
+.size, .weight, .prices {
+  font-size: 12px;
+  font-weight: bold;
+  margin: 0 0 0 10px;
+}
+
+.valid-date {
+  font-size: 10px;
+  margin-left: -10px;
+}
