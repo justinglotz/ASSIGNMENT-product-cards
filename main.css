@@ -3,6 +3,7 @@
 
 body {
   background-color: #D1C4E9;
+  font-family: 'Afacad Flux';
 }
 
 .product-cards {
@@ -18,10 +19,11 @@ body {
 }
 
 .card {
+  /* width: calc(33% - 10px); */
   width: calc(33% - 10px);
   box-sizing: border-box;
   border: 1px solid lightblue;
-  min-width: 250px;
+  min-width: 340px;
   margin: 5px;
   background-color: #512DA8;
   color: white;
@@ -66,4 +68,12 @@ h4 {
 .valid-date {
   font-size: 10px;
   margin-left: -10px;
+}
+
+.soldOut {
+  position: absolute;
+  top: 60px;
+  left: -70px;
+  display: block;
+  max-width: 400px;
 }
