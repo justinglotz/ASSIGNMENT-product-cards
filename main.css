@@ -73,7 +73,7 @@ h4 {
 .soldOut {
   position: absolute;
   top: 60px;
-  left: -70px;
+  left: 65px;
   display: block;
   max-width: 400px;
 }
